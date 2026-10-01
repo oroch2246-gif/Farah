@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Для Фарахруз ❤️</title>
+<style>
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  margin:0; font-family:Arial,Helvetica,sans-serif; color:#fff;
+  background:radial-gradient(circle at 50% 15%,#5b183b 0,#250d25 38%,#0d0715 100%);
+  overflow-x:hidden;
+}
+body:before{
+  content:""; position:fixed; inset:0; pointer-events:none; opacity:.15;
+  background-image:radial-gradient(#fff 1px,transparent 1px);
+  background-size:45px 45px;
+}
+.container{max-width:900px;margin:auto;padding:25px 18px 80px;position:relative;z-index:2}
+.hero{min-height:100vh;display:flex;align-items:center;justify-content:center;text-align:center}
+.card{
+  width:100%; padding:42px 25px; border:1px solid rgba(255,255,255,.15);
+  border-radius:30px; background:rgba(255,255,255,.07);
+  backdrop-filter:blur(12px); box-shadow:0 20px 80px rgba(0,0,0,.35)
+}
+h1{font-size:clamp(42px,12vw,82px);margin:8px 0;color:#ffd6e8;text-shadow:0 0 25px #ff4f98}
+h2{font-size:clamp(28px,7vw,48px);color:#ffd6e8}
+p{font-size:19px;line-height:1.7;color:#ffeef6}
+.subtitle{font-size:20px;opacity:.9}
+.heart{font-size:65px;animation:pulse 1.5s infinite}
+@keyframes pulse{50%{transform:scale(1.18)}}
+.btn{
+  border:0;border-radius:999px;padding:16px 28px;margin:10px;
+  font-size:17px;font-weight:bold;color:white;cursor:pointer;
+  background:linear-gradient(135deg,#ff3f88,#b92768);
+  box-shadow:0 10px 30px rgba(255,63,136,.35);transition:.25s
+}
+.btn:hover{transform:translateY(-3px) scale(1.03)}
+.section{margin:35px 0}
+.hidden{display:none}
+.love-box{padding:25px;border-radius:24px;background:rgba(255,80,140,.09);margin-top:20px}
+.quote{font-size:25px;line-height:1.5;color:#ffd4e5}
+.distance{font-size:28px;color:#ffb5d2;margin:20px 0}
+.letter{text-align:left}
+.letter p{margin:13px 0}
+.signature{text-align:right;font-size:23px;color:#ffc5dc;margin-top:25px}
+.final{
+  min-height:65vh;display:flex;align-items:center;justify-content:center;text-align:center
+}
+.floating-heart{
+ position:fixed;bottom:-30px;font-size:20px;opacity:.8;animation:rise linear forwards;z-index:1
+}
+@keyframes rise{
+ from{transform:translateY(0) scale(.7);opacity:0}
+ 15%{opacity:.8} to{transform:translateY(-110vh) translateX(var(--x)) scale(1.3);opacity:0}
+}
+#yesMessage{font-size:23px;color:#ffd1e3;margin-top:18px}
+.small{font-size:14px!important;opacity:.65}
+</style>
+</head>
+<body>
+<div id="hearts"></div>
+
+<div class="container">
+<section class="hero">
+  <div class="card">
+    <div class="heart">❤️</div>
+    <div class="subtitle">Я мог просто написать «люблю»… но решил сделать кое-что получше.</div>
+    <h1>Фарахруз ❤️</h1>
+    <p>Этот сайт существует только по одной причине: потому что есть одна девушка, ради которой мне захотелось превратить свои чувства в целый маленький мир.</p>
+    <button class="btn" onclick="document.getElementById('letter').scrollIntoView()">Открыть письмо 💌</button>
+  </div>
+</section>
+
+<section id="letter" class="section">
+  <div class="card letter">
+    <div style="text-align:center">
+      <div class="heart">💘</div>
+      <h2>Фарахруз, это всё тебе.</h2>
+      <p class="subtitle">Не пролистывай. Я реально старался. 😌❤️</p>
+    </div>
+
+    <p>Знаешь, что самое странное? Я могу открыть миллион сайтов, написать тысячу сообщений и подобрать самые красивые слова — но когда дело касается тебя, обычных слов почему-то всегда мало.</p>
+
+    <p>Потому что ты для меня — не просто «девушка, которой я решил сделать сайт». Ты тот человек, которому мне хочется писать даже тогда, когда я не знаю, что написать. Тот человек, чьё сообщение способно изменить моё настроение за пару секунд.</p>
+
+    <p>И да, между нами расстояние. Иногда оно бесит. Очень. Потому что я хочу не просто видеть твоё имя на экране. Я хочу видеть <b>тебя</b>. Слышать твой голос рядом. Смотреть тебе в глаза. Обнять тебя так, чтобы на несколько секунд вообще перестать думать обо всём остальном.</p>
+
+    <p>Но есть одна вещь, которую расстояние у нас так и не смогло забрать — <b>моё желание быть рядом с тобой.</b></p>
+
+    <div class="love-box">
+      <p class="quote">«Если бы мне дали возможность сейчас загадать только одно желание — я бы не просил ни денег, ни славы, ни чего-то невозможного. Я бы просто оказался рядом с тобой.»</p>
+    </div>
+
+    <p>Фарахруз, мне нравится твоя улыбка. Мне нравится твой характер. Мне нравится то, как ты можешь быть милой, смешной, иногда вредной — и всё равно оставаться человеком, к которому меня тянет.</p>
+
+    <p>И знаешь что? Мне даже нравится скучать по тебе. Не потому что это приятно, конечно. А потому что эта тоска каждый раз напоминает мне, насколько сильно ты мне нужна.</p>
+
+    <p>Иногда я представляю нашу встречу. И вот честно — я не знаю, что скажу первым. Наверное, вообще забуду все красивые слова, которые сейчас пишу. Просто подойду к тебе, обниму и буду стоять рядом, потому что в этот момент слова уже будут не нужны.</p>
+
+    <p>Ты можешь даже не замечать, сколько места занимаешь в моих мыслях. А его много. Очень много.</p>
+
+    <p>Я могу заниматься своими делами, играть, сидеть в телефоне, смеяться с кем-то — и вдруг совершенно случайно подумать о тебе. И всё. У меня появляется эта глупая улыбка, которую я даже не пытаюсь скрыть. 😭❤️</p>
+
+    <p><b>Вот что ты со мной делаешь.</b></p>
+
+    <p>И я не хочу обещать тебе сказочную историю, где никогда не будет ссор, расстояния или сложных дней. Это было бы красиво, но неправдой.</p>
+
+    <p>Я хочу другого. Чтобы даже после сложных дней нам всё равно хотелось возвращаться друг к другу. Чтобы мы умели разговаривать, слышать друг друга и выбирать друг друга снова.</p>
+
+    <p>Потому что из всех людей, которых можно встретить в этом огромном мире, именно <b>ты</b> стала для меня той самой, для которой я сейчас сижу и делаю целый сайт. 😏</p>
+
+    <div class="love-box" style="text-align:center">
+      <p style="font-size:27px;color:#ffd1e3;margin:0">
+        И если вдруг ты когда-нибудь спросишь:<br><br>
+        <b>«А ты правда меня любишь?»</b><br><br>
+        Ответ будет очень простой:<br>
+        <span style="font-size:34px">«А ты ещё сомневаешься? ❤️»</span>
+      </p>
+    </div>
+
+    <p>Спасибо тебе за то, что ты есть в моей жизни. За разговоры. За улыбки. За моменты, которые мы уже успели получить. И даже за те километры между нами — потому что однажды мы посмотрим назад и скажем: <b>«Мы всё-таки справились.»</b></p>
+
+    <p>А пока просто знай: где бы ты ни была, у меня есть человек, которого хочется обнять сильнее всего.</p>
+
+    <p>И этот человек — ты, Фарахруз. ❤️</p>
+
+    <div class="signature">Твой человек. Твой вредный романтик. Твой ❤️</div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="card" style="text-align:center">
+    <h2>Даже на расстоянии 🌙</h2>
+    <div class="distance">Километры — это расстояние между местами.<br>Но не между людьми.</div>
+    <p>Пусть сейчас мы не можем просто встретиться, обнять друг друга и провести вместе обычный вечер.</p>
+    <p>Но ты всё равно можешь быть частью моего дня: в сообщении, в мысли, в улыбке, в воспоминании.</p>
+    <p class="quote">«Я бы выбрал тебя даже в мире, где нам пришлось бы снова и снова искать друг друга.»</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="card" style="text-align:center">
+    <h2>А теперь серьёзно… 💗</h2>
+    <p>Я хочу день, когда мне больше не придётся писать тебе «скучаю», потому что ты просто будешь рядом.</p>
+    <p>Хочу вместо экрана увидеть твою улыбку вживую.</p>
+    <p>Вместо километров — мои руки вокруг тебя.</p>
+    <p>Вместо «когда-нибудь увидимся» — «я уже рядом».</p>
+    <p>И чтобы у нас было намного больше моментов, которые мы будем вспоминать вместе.</p>
+    <button class="btn" onclick="showLove()">Нажми, если хочешь узнать кое-что ❤️</button>
+    <div id="yesMessage" class="hidden">Вот теперь можешь официально знать: я по тебе безнадёжно скучаю, безумно дорожу тобой и люблю тебя сильнее, чем умею нормально объяснить словами. 🥹❤️</div>
+  </div>
+</section>
+
+<section class="final">
+  <div class="card">
+    <div class="heart">💗</div>
+    <h2>Фарахруз</h2>
+    <p class="quote">Если однажды ты забудешь, насколько ты мне дорога — просто открой этот сайт снова.</p>
+    <p>А я постараюсь каждый день давать тебе новые причины улыбаться.</p>
+    <p style="font-size:25px;color:#ffd0e2"><b>Я скучаю по тебе.<br>Я дорожу тобой.<br>И я очень тебя люблю. ❤️</b></p>
+    <p class="small">Сделано специально для Фарахруз — с любовью.</p>
+  </div>
+</section>
+</div>
+
+<script>
+function showLove(){
+  const m=document.getElementById('yesMessage');
+  m.classList.remove('hidden');
+  for(let i=0;i<18;i++) setTimeout(createHeart,i*100);
+}
+function createHeart(){
+  const h=document.createElement('div');
+  h.className='floating-heart';
+  h.textContent=['❤️','💗','💕','💖','💘'][Math.floor(Math.random()*5)];
+  h.style.left=Math.random()*100+'vw';
+  h.style.setProperty('--x',(Math.random()*160-80)+'px');
+  h.style.animationDuration=(4+Math.random()*5)+'s';
+  document.getElementById('hearts').appendChild(h);
+  setTimeout(()=>h.remove(),10000);
+}
+setInterval(createHeart,700);
+</script>
+</body>
+</html>
